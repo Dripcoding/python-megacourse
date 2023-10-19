@@ -1,0 +1,4 @@
+venv/
+todosApp/venv/
+todosApp-gui/lib/python3.10/
+sys

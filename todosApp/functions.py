@@ -16,12 +16,13 @@ def write_todos(todos_arg, filepath=TODOS_FILE_PATH):
     """
     with open(filepath, 'w') as file:
         file.writelines(todos_arg)
-        
+
 # code inside modules is executed when imported
 # only execute this code when this file is executed directly
 
 # __name__ is the name of the file
 # files have the name __main__ when executed directly
+
 
 if __name__ == '__main__':
     print(get_todos())
